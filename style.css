@@ -70,11 +70,16 @@ body {
 }
 
 .footer {
-  font-size: 16px;
-  margin: 0;
-  position: absolute;
-  bottom: 36px;
-}
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    white-space: nowrap; /* Запрещает перенос текста на новую строку */
+  }
+  
 @media (max-width: 560px) {
   body {
     padding: 24px;
